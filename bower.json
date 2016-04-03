@@ -1,0 +1,15 @@
+{
+  "name": "secondtrade-frontend",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-base64": "^2.0.5",
+    "angular-i18n": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "angular-translate": "^2.11.0",
+    "angular-bootstrap": "angular-ui-bootstrap-bower#^1.2.5",
+    "bootstrap": "^3.3.6",
+    "bootstrap-select": "^1.10.0",
+    "footable": "^3.0.7"
+  }
+}

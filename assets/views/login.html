@@ -1,0 +1,15 @@
+<form class="form-signin" ng-submit="login()" id="userLogin" ng-controller="LoginController">
+	<h2 class="form-signin-heading">Please sign in</h2>
+		<div class="alert alert-danger" role="alert" ng-show="error">
+			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+			<span class="sr-only">Error:</span> Your login was unsuccessful. </>
+		</div> 
+	<input ng-model="credentials.username" class="form-control" type="text" placeholder="Email address" /> 
+	<input ng-model="credentials.password" class="form-control" type="password" placeholder="Password" />
+	<div class="checkbox">
+		<label> <input type="checkbox" value="remember-me">
+			Remember me
+		</label>
+	</div>
+	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>
